@@ -19,7 +19,7 @@ export class WizardController {
      * @returns {*}
      */
     onSelectionChange() {
-        
+
         const model = this.$localStorage.wizardSelection;
         return this.Portfolios.get(model);
     }

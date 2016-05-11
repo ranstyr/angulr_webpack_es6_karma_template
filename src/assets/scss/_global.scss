@@ -135,6 +135,56 @@
 .align-center{
   text-align: center;
 }
+
+.blue{
+  background-color: blue;
+}
+
+.green{
+  background-color: green;
+}
+
+.height10{
+  height: 10%
+}
+
+.height70{
+  height: 70%
+}
+
+.height30{
+  height: 30%
+}
+
+.height20{
+  height: 20%
+}
+
+.bg {
+  position: relative;
+  z-index: 1;
+}
+
+.bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .4;
+  z-index: -1;
+  background: url("../images/bg.jpg");
+}
+
+.padding-center{
+  padding-top: 10em;
+}
+
+.padding-left-9{
+  padding-left: 6em;
+}
+
 //
 //select {
 //  border-width: 2px;
